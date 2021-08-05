@@ -24,7 +24,7 @@ import java.net.HttpURLConnection;
 
 
 /** Put your access key here **/
-String awsAccessKey = "AKIASSCJTE5ZKWSGYF67";
+String awsAccessKey = "" ;
 
 /** Put your secret key here **/
 String awsSecretKey = "";
