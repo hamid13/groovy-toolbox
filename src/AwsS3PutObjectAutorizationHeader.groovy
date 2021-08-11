@@ -57,7 +57,7 @@ try {
     if (regionName.equals("us-east-1")) {
         endpointUrl = new URL("https://s3.amazonaws.com/" + bucketName + "/" + fileName);
     } else {
-        endpointUrl = new URL("https://s3-" + regionName + ".amazonaws.com/" + bucketName + "/ExampleObject.txt");
+        endpointUrl = new URL("https://s3-" + regionName + ".amazonaws.com/" + bucketName + "/" + fileName);
         println endpointUrl
     }
 } catch (MalformedURLException e) {
